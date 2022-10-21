@@ -13,6 +13,10 @@ var randomPng = pngs[Math.floor(Math.random() * pngs.length)];
 // Set the image
 document.getElementById("root").src = randomPng;
 
+// Set the image to be the same size as the window using CSS
+document.getElementById("root").style.width = window.innerWidth + "px";
+document.getElementById("root").style.height = window.innerHeight + "px";
+
 // Set the image to be a random one every 5 seconds
 setInterval(function() {
     var randomPng = pngs[Math.floor(Math.random() * pngs.length)];
