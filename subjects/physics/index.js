@@ -4,7 +4,7 @@
 // Get a list of how many PNGs are in the folder
 var pngs = [];
 for (var i = 1; i < 117; i++) {
-    pngs.push("./physics_ (" + i + ").png");
+    pngs.push("subjects/physics/physics_ (" + i + ").png");
 }
 
 // Pick a random one
