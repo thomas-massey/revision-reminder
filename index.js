@@ -13,8 +13,8 @@ var randomPng = pngs[Math.floor(Math.random() * pngs.length)];
 // Set the image
 document.getElementById("root").src = randomPng;
 
-// Set the image to be a random one every 5 seconds
+// Set the image to be a random one every 30 seconds
 setInterval(function() {
     var randomPng = pngs[Math.floor(Math.random() * pngs.length)];
     document.getElementById("root").src = randomPng;
-}, 5000);
+}, 30000);
